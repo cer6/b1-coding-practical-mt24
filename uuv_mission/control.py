@@ -2,7 +2,7 @@ class PDController:
     def __init__(self, Kp: float, Kd: float):
         self.Kp = Kp
         self.Kd = Kd
-        self.previous_error = 0  # Assuming 2D position (x, y)
+        self.previous_error = 0
 
     def compute_action(self, reference, observation):
 
